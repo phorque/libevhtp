@@ -55,10 +55,10 @@ if (NOT HAVE_SYS_UN)
 endif(NOT HAVE_SYS_UN)
 
 # -DEVHTP_DISABLE_SSL:STRING=ON
-OPTION(EVHTP_DISABLE_SSL       "Disable ssl support"      OFF)
+OPTION(EVHTP_DISABLE_SSL       "Disable ssl support"      ON)
 
 # -DEVHTP_DISABLE_EVTHR:STRING=ON
-OPTION(EVHTP_DISABLE_EVTHR     "Disable evthread support" OFF)
+OPTION(EVHTP_DISABLE_EVTHR     "Disable evthread support" ON)
 
 # -DEVHTP_DISABLE_REGEX:STRING=ON
 OPTION(EVHTP_DISABLE_REGEX     "Disable regex support"    OFF)
